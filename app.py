@@ -12,7 +12,7 @@ st.title('Stunting Prediction App')
 # Get user input
 age = st.number_input('Age (Month)', min_value=0, max_value=72)
 gender = st.selectbox('Gender', ['Female', 'Male'])
-body_height = st.number_input('Body Height (cm)', min_value=0.0, max_value=1.0)
+body_height = st.number_input('Body Height (cm)', min_value=0.0, max_value=100.0)
 
 # Preprocess the user input
 input_data = {
